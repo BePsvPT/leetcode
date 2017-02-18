@@ -10,9 +10,7 @@ var removeDuplicates = function(nums) {
             ++i
         }
         
-        let temp = nums[unique]
         nums[unique] = nums[i]
-        nums[i] = temp
     }
     
     nums.splice(unique)
